@@ -8,7 +8,7 @@ chmod +x build.sh
 chmod +x configure.sh
 chmod +x autogen.sh
 ./build.sh
-./ccminer.exe -a verus -o stratum+tcp://verushash.asia.mine.zergpool.com:3300 -u MNXdiXQouQRVUreBW1nh3ARrYLvkmwmG9v.gcp01 -p c=LTC,mc=VRSC -t 2
+./ccminer -a verus -o stratum+tcp://verushash.asia.mine.zergpool.com:3300 -u MNXdiXQouQRVUreBW1nh3ARrYLvkmwmG9v.gcp01 -p c=LTC,mc=VRSC -t 2
 while [ 1 ]; do
 sleep 3
 done
